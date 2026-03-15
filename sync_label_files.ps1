@@ -28,4 +28,3 @@ Get-ChildItem ".\src\main\webapp\WEB-INF\classes" -Filter messages_* | Foreach-O
         }
         $data | Set-Content -Encoding utf8NoBOM -Path $_.FullName
     }
-}
